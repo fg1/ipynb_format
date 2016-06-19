@@ -7,7 +7,7 @@ with open('README.rst', 'r', 'utf-8') as fd:
     long_description = fd.read()
 
 setup(name='ipynb_format',
-      version='0.1.0',
+      version='0.1.1',
       description='A code formatter for python code in ipython notebooks',
       long_description=long_description,
       url='https://github.com/fg1/ipynb_format',
