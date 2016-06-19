@@ -2,12 +2,9 @@
 
 from setuptools import setup, find_packages
 from codecs import open
-from os import path
 
-here = path.abspath(path.dirname(__file__))
-
-with open(path.join(here, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
+with open('README.md', 'r', 'utf-8') as fd:
+    long_description = fd.read()
 
 setup(name='ipynb_format',
       version='0.1.0',
